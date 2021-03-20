@@ -17,7 +17,7 @@ const App = () => {
 
   // Making a request to OMDB api
   const getMovieRequest = async (searchValue) => {
-    const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=dbddef57`;
+    const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=dbddef57`;
     const res = await fetch(url);
     const resJson = await res.json();
 
