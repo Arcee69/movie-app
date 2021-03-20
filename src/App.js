@@ -8,8 +8,6 @@ import AddFavourites from "./components/AddToFavourites";
 import RemoveFavourites from './components/RemoveFavourites';
 
 
-console.log(process.env.REACT_APP_MOVIE_KEY);
-
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchValue, setSearchValue] = useState('');
